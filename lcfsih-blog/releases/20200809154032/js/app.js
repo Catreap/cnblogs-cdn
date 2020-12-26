@@ -195,7 +195,7 @@ webpackJsonp([1], {
                 name: "BrandName",
                 data: function() {
                     return {
-                        blogName: g.blogName + " \'s Blog"
+                        blogName: g.blogName + "\'s Blog"
                     }
                 }
             },
@@ -1559,7 +1559,7 @@ webpackJsonp([1], {
                 name: "BrandTitle",
                 data: function() {
                     return {
-                        blogName: g.blogName + " \'s Blog"
+                        blogName: g.blogName + "\'s Blog"
                     }
                 }
             },
