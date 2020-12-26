@@ -4658,7 +4658,7 @@ webpackJsonp([1], {
                         staticClass: "contact-content"
                     }, [i("div", {
                         staticClass: "contact-content-top"
-                    }, [t._v("email")]), t._v(" "), i("div", {
+                    }, [t._v("Email")]), t._v(" "), i("div", {
                         staticClass: "contact-content-bottom"
                     }, [t._v(t._s(t.email()))])])]), t._v(" "), i("div", {
                         staticClass: "contact-item"
@@ -4688,7 +4688,7 @@ webpackJsonp([1], {
                         staticClass: "contact-content"
                     }, [i("div", {
                         staticClass: "contact-content-top"
-                    }, [t._v("github")]), t._v(" "), i("div", {
+                    }, [t._v("GitHub")]), t._v(" "), i("div", {
                         staticClass: "contact-content-bottom"
                     }, [t._v(t._s(t.github()))])])]), t._v(" "), 
 
