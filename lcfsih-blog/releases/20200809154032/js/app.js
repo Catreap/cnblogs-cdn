@@ -222,7 +222,7 @@ webpackJsonp([1], {
                         staticClass: "max-screen-wrap"
                     }, [i("span", {
                         staticClass: "icon iconfont home head-brand-color"
-                    })], [i("router-link", {
+                    }), i("router-link", {
                         staticClass: "blog-name head-brand-color",
                         attrs: {
                             to: "/",
