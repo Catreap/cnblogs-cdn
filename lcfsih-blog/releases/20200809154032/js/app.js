@@ -220,12 +220,8 @@ webpackJsonp([1], {
                         }
                     }, [i("div", {
                         staticClass: "max-screen-wrap"
-                    }, [i("icon", {
-                        staticClass: "iconfont home head-brand-color",
-                        attrs: {
-                            to: "/",
-                            tag: "span"
-                        }
+                    }, [i("span", {
+                        staticClass: "icon iconfont home head-brand-color"
                     })], [i("router-link", {
                         staticClass: "blog-name head-brand-color",
                         attrs: {
