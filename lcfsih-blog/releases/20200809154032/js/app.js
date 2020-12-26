@@ -218,7 +218,21 @@ webpackJsonp([1], {
                             to: "/",
                             tag: "span"
                         }
-                    }, [t._v(" " + t._s(t.blogName))])], 1)]), t._v(" "), i("div", {
+                    }, [i("div", {
+                        staticClass: "max-screen-wrap"
+                    }, [i("icon", {
+                        staticClass: "iconfont home head-brand-color",
+                        attrs: {
+                            to: "/",
+                            tag: "span"
+                        }
+                    })], [i("router-link", {
+                        staticClass: "blog-name head-brand-color",
+                        attrs: {
+                            to: "/",
+                            tag: "span"
+                        }
+                    }, [t._v(" " + t._s(t.blogName))])], 1)])], 1)]), t._v(" "), i("div", {
                         staticClass: "min-screen",
                         on: {
                             click: function(e) {
