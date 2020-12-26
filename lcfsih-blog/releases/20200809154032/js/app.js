@@ -4691,22 +4691,7 @@ webpackJsonp([1], {
                     }, [t._v("github")]), t._v(" "), i("div", {
                         staticClass: "contact-content-bottom"
                     }, [t._v(t._s(t.github()))])])]), t._v(" "), 
-					
-					i("div", {
-                        staticClass: "about-me-wrap"
-                    }, [i("div", {
-                        staticClass: "about-me-head"
-                    }, [t._v("他与她的梦")]), t._v(" "), i("div", {
-                        staticClass: "about-me-body",
-                        domProps: {
-                            innerHTML: t._s(t.aboutCouple)
-                        }
-                    }, [t._v("\n        " + t._s(t.aboutCouple) + "\n      ")])
-					
 
-					
-					]), 
-					
 					i("div", {
                         staticClass: "about-me-wrap"
                     }, [i("div", {
