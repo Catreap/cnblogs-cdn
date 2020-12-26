@@ -195,7 +195,7 @@ webpackJsonp([1], {
                 name: "BrandName",
                 data: function() {
                     return {
-                        blogName: "<div class=\"max-screen-wrap\"><span class=\"icon iconfont home head-brand-color\"></span> <span class=\"blog-name head-brand-color router-link-active\">" + g.blogName + " \'s Blog"
+                        blogName: g.blogName + " \'s Blog"
                     }
                 }
             },
