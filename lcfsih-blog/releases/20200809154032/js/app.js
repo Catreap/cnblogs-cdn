@@ -221,7 +221,7 @@ webpackJsonp([1], {
                     }, [i("router-link", {
                         staticClass: "blog-name head-brand-color",
                         attrs: {
-                            to: "https://www.cnblogs.com/lcfsih/",
+                            to: "../../../c/subject/category/default.html",
                             tag: "span"
                         }
                     }, [i("div", {
