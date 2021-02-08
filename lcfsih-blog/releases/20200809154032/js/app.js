@@ -760,6 +760,20 @@ webpackJsonp([1], {
                             M.a.ajax({
                                 url: t,
                                 complete: function(i, n) {
+                                    $.getScript("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML", function() {
+                                        MathJax.Hub.Config({
+                                        extensions: ["tex2jax.js"],
+                                        jax: ["input/TeX", "output/HTML-CSS"],
+                                        tex2jax: {
+                                            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                                            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                                            processEscapes: true
+                                        },
+                                        "HTML-CSS": { availableFonts: ["TeX"] }
+                                        });
+                                        let math = document.getElementsByClassName("blogpost-body");
+                                        MathJax.Hub.Queue(["Typeset",MathJax.Hub,math]);
+                                    });
                                     e(i.responseText || ""), delete et[t]
                                 }
                             })
@@ -787,6 +801,20 @@ webpackJsonp([1], {
                         contentType: "application/json; charset=utf-8",
                         dataType: "json",
                         complete: function(e, a) {
+                            $.getScript("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML", function() {
+                                MathJax.Hub.Config({
+                                extensions: ["tex2jax.js"],
+                                jax: ["input/TeX", "output/HTML-CSS"],
+                                tex2jax: {
+                                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                                    processEscapes: true
+                                },
+                                "HTML-CSS": { availableFonts: ["TeX"] }
+                                });
+                                let math = document.getElementsByClassName("blogpost-body");
+                                MathJax.Hub.Queue(["Typeset",MathJax.Hub,math]);
+                            });
                             try {
                                 s(i ? i(e.responseJSON || e.responseText) : e.responseJSON || e.responseText)
                             } catch (e) {
@@ -3575,6 +3603,20 @@ webpackJsonp([1], {
                         staticClass: "fangdabtn icon iconfont icontushu",
                         on: {
                             click: function(e) {
+                                $.getScript("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML", function() {
+                                    MathJax.Hub.Config({
+                                    extensions: ["tex2jax.js"],
+                                    jax: ["input/TeX", "output/HTML-CSS"],
+                                    tex2jax: {
+                                        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                                        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                                        processEscapes: true
+                                    },
+                                    "HTML-CSS": { availableFonts: ["TeX"] }
+                                    });
+                                    let math = document.getElementsByClassName("blogpost-body");
+                                    MathJax.Hub.Queue(["Typeset",MathJax.Hub,math]);
+                                });
                                 return t.$emit("openFullScreenEven")
                             }
                         }
