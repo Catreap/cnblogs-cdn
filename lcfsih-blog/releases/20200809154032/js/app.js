@@ -231,7 +231,7 @@ webpackJsonp([1], {
                     }), i("router-link", {
                         staticClass: "blog-name head-brand-color",
                         attrs: {
-                            to: "/",
+                            to: "../../../c/subject/category/default.html",
                             tag: "span"
                         }
                     }, [t._v(" " + t._s(t.blogName))])], 1)])], 1)]), t._v(" "), i("div", {
