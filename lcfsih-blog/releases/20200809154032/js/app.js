@@ -760,7 +760,7 @@ webpackJsonp([1], {
                             M.a.ajax({
                                 url: t,
                                 complete: function(i, n) {
-                                    M.a.getScript("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML", function() {
+                                    M.a.getScript("https://cdn.jsdelivr.net/npm/mathjax@2.7.6/unpacked/MathJax.min.js?config=TeX-MML-AM_CHTML", function() {
                                         MathJax.Hub.Config({
                                         extensions: ["tex2jax.js"],
                                         jax: ["input/TeX", "output/HTML-CSS"],
@@ -801,7 +801,7 @@ webpackJsonp([1], {
                         contentType: "application/json; charset=utf-8",
                         dataType: "json",
                         complete: function(e, a) {
-                            M.a.getScript("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML", function() {
+                            M.a.getScript("https://cdn.jsdelivr.net/npm/mathjax@2.7.6/unpacked/MathJax.min.js?config=TeX-MML-AM_CHTML", function() {
                                 MathJax.Hub.Config({
                                 extensions: ["tex2jax.js"],
                                 jax: ["input/TeX", "output/HTML-CSS"],
@@ -3603,7 +3603,7 @@ webpackJsonp([1], {
                         staticClass: "fangdabtn icon iconfont icontushu",
                         on: {
                             click: function(e) {
-                                M.a.getScript("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML", function() {
+                                M.a.getScript("https://cdn.jsdelivr.net/npm/mathjax@2.7.6/unpacked/MathJax.min.js?config=TeX-MML-AM_CHTML", function() {
                                     MathJax.Hub.Config({
                                     extensions: ["tex2jax.js"],
                                     jax: ["input/TeX", "output/HTML-CSS"],
