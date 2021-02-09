@@ -2021,7 +2021,7 @@ webpackJsonp([1], {
                     PageLine: Ot
                 },
                 data: function() {
-					fetch('https://v1.hitokoto.cn')
+					fetch('https://v1.hitokoto.cn/?c=a')
 							.then(response => response.json())
 							.then(data => {
 							const hitokoto = document.getElementById('title-sign')
